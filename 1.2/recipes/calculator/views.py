@@ -31,7 +31,7 @@ def omlet_recipe(request):
             'яйца, шт': 2 * mult,
             'молоко, л': 0.1 * mult,
             'соль, ч.л.': 0.5 * mult,
-        }, # recipe_dict,
+        }, 
         'name' : name,
         'servings': persons,
     }
@@ -48,7 +48,7 @@ def pasta_recipe(request):
         'recipe': {
             'макароны, кг': 0.3 * mult,
             'сыр, кг': 0.05 * mult,
-        },     # recipe_dict,
+        },     
         'name': name,
         'servings': persons,
     }
@@ -67,7 +67,7 @@ def sandwich_recipe(request):
             'колбаса, ломтик': 1 * mult,
             'сыр, ломтик': 1 * mult,
             'помидор, ломтик': 1 * mult,
-        }, # recipe_dict,
+        }, 
         'name': name,
         'servings': persons,
     }
